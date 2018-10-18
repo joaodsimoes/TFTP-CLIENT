@@ -28,13 +28,6 @@ public class Stats {
 		System.out.println("Number of data messages sent:\t " + totalDataBlocks);
 		System.out.println("Number of Acks received:\t " + totalAcks);
 
-		// if you implement the dynamic timeout option, uncomment these two extra lines
-		// System.out.printf("rtt - min, average, max: \t %d  %d  %d ms \n", minRtt, rtt, maxRtt);
-		// System.out.printf("timeOut - min, last, max: \t %d  %d  %d ms \n\n", minTimeout, computedTimeout, maxTimeout);
-
-		// With GBN and different block sizes, uncommente this line
-		// System.out.println("window size: "+windowSize+" block size: "+blockSize;
-
 	}
 
 	public int getInitTimeout() {
